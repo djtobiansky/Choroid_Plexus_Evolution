@@ -1,0 +1,27 @@
+species,group,nest_substrate_resistance,foraging,foraging_method,min_clutch_size,feldging,inc period,breeding,migration,habitat,drum length,drum speed,plv area percent,3v area perc,alv area perc,chp to brain area perc,year_caught,mass_g,PC1morph,PC1a2
+Veniliornis_nigriceps,picidae,hard,I,nonextractive,,,,no,no,closed,23.4,25.79,0.009332169,0.007607064,0.018106557,0.0350458,1985,38,0.821439789,-0.13543644
+Colaptes_rivolii,picidae,soft,G,nonextractive,,,,yes,no,closed,28,20.94,0.018456339,0.007279075,0.001251867,0.0269873,1985,71,0.146528611,-0.031820401
+Picumnus_rufiventris,picidae,soft,E,extractive,,,,yes,no,closed,,,0.026478707,0.009695646,0.007930972,0.0441053,1966,21,-0.065069913,0.004019647
+Campephilus_melanoleucos,picidae,hard,E,extractive,2,,,no,no,closed,6.9,15.16,0.020335463,0.004502692,0.011405911,0.0362441,1999,174,-0.142027116,-0.229968081
+Celeus_elegans,picidae,soft,G,nonextractive,3,,,no,no,closed,20.3,22.04,0.022052671,0,0.009486213,0.0315389,1983,130,1.322021501,0.009880916
+Colaptes_auratus,picidae,soft,I,nonextractive,3,11,24,no,yes,open,25.2,23.52,0.023462479,0.010902432,0.034843527,0.0692084,1984,109,-1.234853357,-0.012803269
+Dryocopus_lineatus,picidae,soft,E,extractive,2,,,no,no,open,27.1,19.04,0.008914184,0.017639406,0.02053353,0.0470871,1986,178,-0.059150313,-0.040255764
+Melanerpes_cactorum,picidae,soft,G,nonextractive,,,,no,no,open,24.3,21.98,0.012912176,0.027168076,0.030809037,0.0708893,1984,34.3,2.175963856,0.277123232
+Melanerpes_erythrocephalus,picidae,soft,G,nonextractive,4,12,24,no,no,closed,17.8,21.25,0.035903117,0.01531716,0.014036406,0.0652567,1981,72,0.340527182,-0.226086256
+Leuconotopicus_villosus,picidae,hard,E,nonextractive,3,11,28,no,no,closed,22.4,22.52,0.035315057,0.001822915,0.017079202,0.0542172,2017,62.7,-2.093313856,-0.108951954
+Picumnus_lafresnayi,picidae,hard,I,nonextractive,2,,,no,no,closed,,,0.008435053,0.028094616,0.036326571,0.0728562,1982,9,0.757697363,0.251946197
+Sphyrapicus_ruber,picidae,soft,E,extractive,4,11,23,no,yes,open,,,0.051409731,0.01077593,0.018830286,0.0810159,1976,36.6,0.487778417,-0.104341876
+Sphyrapicus_varius,picidae,hard,E,extractive,2,10,23,no,yes,closed,,,0.078963934,0.014323927,0.029983507,0.1232714,1983,38.3,-0.822694974,-0.084536354
+Campephilus_rubricollis,picidae,soft,E,extractive,2,,,yes,no,closed,,,0.040402587,0.01027471,0.019409786,0.0700871,1982,234,0.398477681,-0.011660514
+Melanerpes_carolinus,picidae,soft,G,extractive,2,12,24,yes,no,closed,17.4,17.88,0.051801088,0.035073546,0.038988567,0.1258632,2016,69.5,-0.179147728,-0.231970476
+Dryobates_pubescens,picidae,soft,E,extractive,3,12,18,yes,no,open,16.5,15.99,0.06390795,0.011998155,0.015530456,0.0914366,2016,25.6,-0.500177021,-0.048083071
+Veniliornis_passerinus,picidae,hard,I,nonextractive,2,,,yes,no,open,27.2,26.96,0.032966674,0.010652426,0.015437928,0.059057,1984,28,-0.31319057,-0.176617434
+Capito_aurovirens,nonpicidae,,,,,,,,,,,,0.0080222,0,0.002007644,0.0100298,1983,63,-1.105900263,0.380146176
+Pteroglossus_azara,nonpicidae,,,,,,,,,,,,0.002658656,0,0.011685121,0.0143438,1987,125,1.247690359,-0.05815905
+Galbula_cyanescens,nonpicidae,,,,,,,,,,,,0,0.018851508,0.029463575,0.0483151,1966,25.3,-0.450962393,1.081311742
+Aulacorhynchus_derbianus,nonpicidae,,,,,,,,,,,,0.048625893,0.021660851,0.043052775,0.1133395,1982,170,-0.90565542,-0.248844939
+Malacoptila_fusca,nonpicidae,,,,,,,,,,,,0,0,0.004425633,0.0044,1982,45.4,,-0.036801876
+Bucco_macrodactylus,nonpicidae,,,,,,,,,,,,0,0.001779311,0.035346193,0.0371255,1972,28.2,0.094691476,-0.043696884
+Galbula_ruficauda,nonpicidae,,,,,,,,,,,,0.000599505,0.000310295,0.036696074,0.0376059,1981,26.5,0.01693705,-0.223084955
+Ramphastos_sulfuratus,nonpicidae,,,,,,,,,,,,0.016427088,0.010959653,0.023659553,0.0510463,1982,390,-1.06500834,0.052968743
+Chelidoptera_tenebrosa,nonpicidae,,,,,,,,,,,,0.004292365,0.034627919,0.06240029,0.1013206,1984,35.9,1.072523671,

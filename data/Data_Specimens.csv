@@ -1,0 +1,27 @@
+Genus,Species,Common Name,No. specimens,Woodpecker?,Family,Tribe,NCBI Taxonomy ID,Continent,Country,State,Year Captured,Month Captured,Shelf-life (yrs),Original mass (g),Brain mass (g),Brain volume (mL,Tarsus length (mm),Culmen length (mm),Tail length (mm),Wingchord (mm),Nest substrate resistance,Foraging method,Minimum clutch_size,Breeding season?,Migratory,Habitat,Drum length,Drum speed,Koppen climate,Cache?,Social structure
+Aulacorhynchus,derbianus,Chestnut-tipped Toucanet,1,no,Ramphastidae,Ramphastidae,91748,South,Peru,Pasco,1982,Apr,39,170,2.69,2.1,35.5,81.4,137,132,,,,,,,,,tropical,unk,paired
+Pteroglossus,azara,azara,2,no,Ramphastidae,Ramphastidae,390975,South,Peru,Ucayali,1987,Jul,34,133.5,2.33,2.6,28.5,84.4,130,123,,,,,,,,,tropical,no,small soc
+Ramphastos,sulfuratus,Keel-billed Toucan,1,no,Ramphastidae,Ramphastidae,322582,South,Panama,,1982,Aug,39,390,4.43,3,45.5,118,161,189,,,,,,,,,tropical,,
+Campephilus,melanoleucos,Crimson-crested Woodpecker,1,yes,Picidae,Campephilini,315367,South,Bolivia,Santa Cruz,1999,Jul,22,174,5.14,4.5,32.2,41.4,112,172,hard,extractive,2,no,no,closed,6.9,15.16,tropical,no,paired
+Campephilus,rubricollis,Red-necked Woodpecker,1,yes,Picidae,Campephilini,381862,South,Peru,Pasco,1982,Apr,39,234,4.66,4,35.4,40.9,111,187,soft,extractive,2,yes,no,closed,,,tropical,unk,paired
+Celeus,elegans,Chestnut Woodpecker,1,yes,Picidae,Picini,315362,South,Peru,Loreto,1983,Jun,38,130,1.93,2,24.7,28,116,162,soft,nonextractive,3,no,no,closed,20.3,22.04,tropical,unk,small soc
+Colaptes,auratus,Northern Flicker,2,yes,Picidae,Picini,51355,North,USA,Louisana,1980,Apr,41,109,2.39,2.4,26.7,32.7,113,152,soft,nonextractive,3,no,yes,open,25.2,23.52,temperate,no,solitary
+Colaptes,rivolii,Crimson-manteled Woodpecker,1,yes,Picidae,Picini,121136,South,Peru,Millpo,1985,Jul,36,71,3.02,2.9,21.5,26.2,95,120,soft,nonextractive,,yes,no,closed,28,20.94,tropical,,
+Dryobates,pubescens,Downy Woodpecker,2,yes,Picidae,Melanerpini,118200,North,USA,North Carolina,2016,Apr,5,,1.06,1,15.4,16.8,58,92,soft,extractive,3,yes,no,open,16.5,15.99,temperate,,
+Dryobates,villosus,Hairy Woodpecker,1,yes,Picidae,Melanerpini,51356,North,USA,North Carolina,2017,Apr,4,,2.4,,21.6,,74,120,hard,nonextractive,3,no,no,closed,22.4,22.52,temperate,,
+Dryocopus,lineatus,Lineated Woodpecker,1,yes,Picidae,Picini,121135,South,Bolivia,,1986,Jul,35,178,4.66,4.5,33.9,43.9,120,,soft,extractive,2,no,no,open,27.1,19.04,tropical,unk,paired
+Melanerpes,cactorum,White-fronted Woodpecker,1,yes,Picidae,Melanerpini,372302,South,Bolivia,Santa Cruz,1984,Jan,37,34.3,1.21,0.8,17.3,21.8,70,115,soft,nonextractive,,no,no,open,24.3,21.98,tropical,yes,small soc
+Melanerpes,carolinus,Red-bellied Woodpecker,3,yes,Picidae,Melanerpini,56083,North,USA,North Carolina,2016,Apr,5,,1.6,1.4,23,28.1,81,127,soft,extractive,2,yes,no,closed,17.4,17.88,temperate,yes,solitary
+Melanerpes,erythrocephalus,Red-headed Woodpecker,1,yes,Picidae,Melanerpini,279962,North,USA,Lousiana,1981,Mar,40,72,1.5,1.4,23.5,25.1,76,132,soft,nonextractive,4,no,no,closed,17.8,21.25,temperate,yes,solitary
+Picumnus,lafresnayi,Lafresnaye's Piculet,1,yes,Picidae,Pucumninae,1109087,South,Peru,Pasco,1982,Apr,39,9,0.36,0.4,11.5,10.4,21,51,hard,nonextractive,2,no,no,closed,,,tropical,unk,mixed
+Picumnus,rufiventris,Rufous-breasted Piculet,1,yes,Picidae,Pucumninae,345730,South,Peru,Ucayali,1966,Jul,55,,0.55,0.6,15.4,14.2,32,62,soft,extractive,,yes,no,closed,,,tropical,,
+Sphyrapicus,ruber,Red-breasted Sapsucker,1,yes,Picidae,Melanerpini,131343,North,USA,California,1976,Jan,45,36.6,1.35,2,20.8,29.5,86,129,soft,extractive,4,no,yes,open,,,temperate,,
+Sphyrapicus,varius,Yellow-bellied Sapsucker,1,yes,Picidae,Melanerpini,56079,North,USA,Lousiana,1983,Jan,38,38.3,1.2,,18.8,20.1,79,121,hard,extractive,2,no,yes,closed,,,temperate,,
+Veniliornis,nigriceps,Bar-bellied Woodpecker,1,yes,Picidae,Melanerpini,56076,South,Peru,Pasco,1985,Jul,36,38,1.58,1.2,18.7,21.8,62,90,hard,nonextractive,,no,no,closed,23.4,25.79,tropical,unk,solitary
+Veniliornis,passerinus,Little Woodpecker,1,yes,Picidae,Melanerpini,315389,South,Bolivia,Beni,1984,Oct,37,28,1.51,1.8,13.2,17.8,44,86,hard,nonextractive,2,yes,no,open,27.2,26.96,tropical,,
+Galbula,cyanescens,Bluish-fronted Jacamar,1,no,Galbulidae,Galbulidae,135170,South,Peru,Loreto,1966,Aug,55,,0.55,0.5,13.1,47.9,93,78,,,,,,,,,tropical,no,solitary
+Galbula,ruficauda,Rufous-tailed Jacamar,1,no,Galbulidae,Galbulidae,131343,South,Bolivia,Vacadiez,1981,Oct,40,,0.55,0.4,11.3,38.7,,45,,,,,,,,,tropical,,
+Capito,aurovirens,Scarlet-crowned Barbet,1,no,Capitonidae,Capitonidae,322573,South,Peru,Loreto,1983,Jul,38,63,1.29,1,22.7,21.4,62,83,,,,,,,,,tropical,no,unk
+Bucco,macrodactylus,Chestnut-capped Puffbird,1,no,Bucconidae,Bucconidae,458186,South,Ecuador,Napo,1972,Jan,49,28.2,0.69,0.6,12.7,23.7,63,69,,,,,,,,,tropical,no,solitary
+Chelidoptera,tenebrosa,Swallow-winged Puffbird,1,no,Bucconidae,Bucconidae,1032514,South,Peru,Loreto,1984,Jul,37,,,0.8,16.1,17.9,52,110,,,,,,,,,tropical,no,small soc
+Malacoptila,fusca,White-chested Puffbird,1,no,Bucconidae,Bucconidae,882743,South,Peru,,1982,Jun,39,,0.98,0.9,17.3,26,66,96,,,,,,,,,tropical,no,solitary
