@@ -1,0 +1,36 @@
+# Phylogenetic Trees for "Mosaic brain evolution in woodpeckers and its relationship to extraordinary beak behavior"
+
+## Overview
+This directory contains the phylogenetic trees used for Ancestral State Reconstruction (ASR), Phylogenetic PCA (pPCA), and PGLS analyses.
+
+## Tree Files
+
+### 1. `Tree_Piciformes_Expanded_2018.nex`
+**Description:** The "Fuxjager Tree" (Expanded Piciformes).
+*   **Source:** Adapted from Miles et al. (2018).
+*   **Format:** NEXUS.
+*   **Usage:** Used as one of the three backbone phylogenies for robustness testing in pPCA and PGLS comparisons.
+
+### 2. `Tree_Piciformes_Consensus.nwk`
+**Description:** The "Consensus Tree" (`pcf_tree`).
+*   **Source:** A consensus topology derived from multiple avian phylogenies (e.g., Ericson backbone).
+*   **Format:** Newick.
+*   **Usage:**
+    *   **Main PGLS Analysis:** Primary tree used for reporting physiological comparisons.
+    *   **ASR:** Used for the Ancestral State Reconstruction in Figure 3.
+    *   **Figure 4:** Used for the ecological trends analysis.
+
+### 3. `Tree_Piciformes_Ultrametric.nwk`
+**Description:** The "Ultrametric Tree".
+*   **Source:** Date-calibrated version of the consensus topology.
+*   **Format:** Newick.
+*   **Usage:** Used for comparative analyses requiring ultrametric branch lengths (e.g., initial ASR checks, though final ASR uses Consensus). Also used as the third robustness check in PGLS.
+
+### 4. `Tree_Picidae_Pruned_Miles2018.nwk`
+**Description:** A pruned tree focused specifically on the Picidae family.
+*   **Source:** Based on Miles et al. (2018).
+*   **Format:** Newick.
+*   **Usage:** Reference for ensuring correct species matching within the Woodpecker clade specifically.
+
+## Notes
+*   All trees are automatically pruned within the R script (`name.check`) to match the species present in the ecological datasets before analysis.

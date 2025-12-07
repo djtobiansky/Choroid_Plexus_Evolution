@@ -1,0 +1,52 @@
+# Analysis Code for "Mosaic brain evolution in woodpeckers and its relationship to extraordinary beak behavior"
+
+## Overview
+This directory contains the R script required to replicate the statistical analyses and figures presented in the manuscript.
+
+## Script: `Piciformes_ChP_Analysis.R`
+The analysis is contained within a single comprehensive R script, organized into the following sections:
+
+### Section 1: Setup and Data Preparation
+*   **Libraries:** Loads all required packages (e.g., `ape`, `phytools`, `nlme`, `caper`, `tidyverse`).
+    *   *Note:* The script includes logic to automatically install missing packages.
+*   **Data Loading:** Imports specimen data, ecological data, and phylogenetic trees.
+*   **Tree Matching:** Prunes phylogenies to match the species available in the ecological datasets using `geiger::name.check`.
+
+### Section 2: Descriptive Statistics & T-Tests
+*   **Shelf-Life Analysis:** Tests for effects of specimen age on ChP size.
+*   **Relative ChP Size:** Calculates `chp.to.brain.area.perc` and performs T-tests between Picidae and Non-Picidae.
+*   **Regional Differences:** Analyzes differences in sub-regions (Posterior, Anterior, 3rd Ventricle) using Mixed Linear Models (`lme`).
+*   **Figure 1 Generation:** Creates the dot plots for relative ChP size.
+
+### Section 3: Ancestral State Reconstruction (ASR)
+*   **Method:** Uses `phytools::fastAnc` and `contMap` to reconstruct ChP size evolution.
+*   **Tree Used:** Non-ultrametric Consensus Tree (`pcf_tree`).
+*   **Figure 3 Generation:** Produces the ASR heatmap on the phylogeny.
+
+### Section 4: Phylogenetic PCA (pPCA)
+*   **Method:** Performs pPCA on cell morphology variables (Nucleus Area, Circularity, etc.) using `phytools::phyl.pca`.
+*   **Analysis:** Run separately for **Picidae** (using 3 different trees) and **All Piciformes**.
+*   **Figure 2 Generation:** Creates the biplot for Picidae species (PC1 vs PC2).
+
+### Section 5: PGLS Analysis (PC1 vs Ecology)
+*   **Method:** Phylogenetic Generalized Least Squares (PGLS) using `caper::pgls`.
+*   **Tests:** Regresses Brain Morphology (PC1) against ecological predictors:
+    *   `nest_substrate_resistance`
+    *   `foraging` (Method)
+    *   `habitat`
+    *   `min_clutch_size`
+    *   `drum.speed`
+    *   `drum.length`
+*   **Robustness:** repeated across 3 different phylogenetic trees (Fuxjager, Consensus, Ultrametric).
+
+### Section 6: Figure 4 Analysis (Ecological Trends)
+*   **Method:** PGLS models testing **Posterior ChP Size** (`plv.area.percent`) against the 6 ecological predictors.
+*   **Figure 4 Generation:** Produces a 6-panel composite plot (A-F) visualizing these relationships.
+
+---
+
+## System Requirements
+To run this script, you need **R (v4.0+)** and the following packages:
+*   `functions`: tidyverse, dplyr, forcats, ggpubr, rstatix, multcomp, emmeans, psych, gt, knitr, kableExtra
+*   `phylogenetics`: ape, phytools, geiger, caper, sensiPhy, ggfortify
+*   `stats`: nlme, moments, corrplot, MASS, mvtnorm, survival, TH.data

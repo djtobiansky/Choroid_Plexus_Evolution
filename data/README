@@ -1,0 +1,16 @@
+# Data Directory
+
+This directory documentation describes the data used in the analysis. The analysis script (`Piciformes_ChP_Analysis.R`) is configured to pull these datasets directly from the GitHub repository to ensure reproducibility and access to the latest version.
+
+## Data Sources
+
+The following files are sourced from [djtobiansky/Choroid_Plexus_Evolution](https://github.com/djtobiansky/Choroid_Plexus_Evolution):
+
+*   **Data_Specimens.csv** (`bird_supptbl1`): Detailed specimen information (taxonomy, capture data, morphology, ecology).
+    *   [Link to Raw CSV](https://raw.githubusercontent.com/djtobiansky/Choroid_Plexus_Evolution/refs/heads/main/data/Data_Specimens.csv)
+*   **Data_Ecology_and_ChP_Size.csv** (`dataeco`): Ecological variables and Choroid Plexus size measurements (regional and total areas).
+    *   [Link to Raw CSV](https://raw.githubusercontent.com/djtobiansky/Choroid_Plexus_Evolution/refs/heads/main/data/Data_Ecology_and_ChP_Size.csv)
+*   **Data_Cell_Morphology.csv** (`datamorph`): Cell morphology measurements (nucleus area, eccentricity, etc.) combined with ecological variables.
+    *   [Link to Raw CSV](https://raw.githubusercontent.com/djtobiansky/Choroid_Plexus_Evolution/refs/heads/main/data/Data_Cell_Morphology.csv)
+
+
